@@ -1,4 +1,5 @@
-import { Box, Button, Container, IconButton, Stack, Typography } from "@mui/material";
+ "use client"
+ import { Box, Button, Container, IconButton, Stack, Typography } from "@mui/material";
 
 // // Icons
 // import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";

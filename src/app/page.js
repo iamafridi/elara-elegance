@@ -1,5 +1,6 @@
-"use client";
+// "use client";
 import LatestProduct from "@/components/ui/LatestProduct/LatestProduct";
+import Sidebar from "@/components/ui/Sidebar/Sidebar";
 import { Grid } from "@mui/material";
 
 const HomePage = () => {
@@ -10,7 +11,7 @@ const HomePage = () => {
          <LatestProduct/>
         </Grid>
         <Grid item xs={4}>
-          
+          <Sidebar/>
         </Grid>
       </Grid>
     </>

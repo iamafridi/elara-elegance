@@ -7,7 +7,7 @@
 import EmailSharpIcon from "@mui/icons-material/EmailSharp";
 import LoginOutlinedIcon from "@mui/icons-material/LoginOutlined";
 import Link from "next/link";
-// import FacebookTwoToneIcon from '@mui/icons-material/FacebookTwoTone';
+import FacebookTwoToneIcon from '@mui/icons-material/FacebookTwoTone';
 const Footer = () => {
   const navItems = [
     {
@@ -20,7 +20,7 @@ const Footer = () => {
     },
     {
       route: "Category",
-      pathname: "/category",
+      pathname: "/categories",
     },
     {
       route: "Latest",
@@ -47,9 +47,9 @@ const Footer = () => {
             },
           }}
         >
-          {/* <IconButton>
+          <IconButton>
               <FacebookTwoToneIcon/>
-            </IconButton> */}
+            </IconButton>
           <IconButton>
             <EmailSharpIcon />
           </IconButton>
